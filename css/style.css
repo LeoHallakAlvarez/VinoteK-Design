@@ -7,12 +7,14 @@
 /* INDEX HEADER */
 .header{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(https://media.istockphoto.com/id/962517604/es/foto/supermercado.jpg?s=612x612&w=0&k=20&c=YlcLpGKJGOm7yBJgZtEEIDuAAItXB1aO6sbWwk7xK0Q=);
 }
 
 .header img{
-    width: 200px;
+    width: 150px;
+
 }
 
 .nav ul{
@@ -21,10 +23,23 @@
     list-style: none;
     width: 400px;
     justify-content: space-around;
+    
 }
 
 .nav ul a{
     text-decoration: none;
-    color: crimson;
+    color: rgb(204, 224, 88);
+    font-weight: bold;
+    box-shadow: 6px 7px 6px;
     
+}
+
+/* main index */
+.oferta{
+    margin: 150px;
+}
+
+.main{
+    background-image: url(https://media.istockphoto.com/id/465987866/es/foto/botellas-de-vino-en-tienda.jpg?s=1024x1024&w=is&k=20&c=RF_l2aZOIPB6ZawPSITEqIngHYj11vkg1WhaPOKWi7s=);
+   
 }
