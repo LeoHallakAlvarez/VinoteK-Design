@@ -44,3 +44,18 @@
     background-image: url(https://media.istockphoto.com/id/465987866/es/foto/botellas-de-vino-en-tienda.jpg?s=1024x1024&w=is&k=20&c=RF_l2aZOIPB6ZawPSITEqIngHYj11vkg1WhaPOKWi7s=);
    
 }
+
+.footer img{
+ width: 91px;
+}
+
+.footer{
+    background-color: black;
+}
+
+.h2{
+    color: rgb(16, 99, 207);
+    display: flex;
+    justify-content: space-around;
+}
+
