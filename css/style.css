@@ -10,12 +10,15 @@
     justify-content: space-evenly;
     align-items: center;
     background-image: url(https://media.istockphoto.com/id/962517604/es/foto/supermercado.jpg?s=612x612&w=0&k=20&c=YlcLpGKJGOm7yBJgZtEEIDuAAItXB1aO6sbWwk7xK0Q=);
+   
 }
 
 .header img{
     width: 150px;
 
 }
+
+
 
 .nav ul{
     display: flex;
@@ -38,12 +41,16 @@
 .oferta{
     margin: 150px;
     background-repeat: no-repeat;
+    transform: skewX(-10deg);
 }
+
 
 .main{
     background-image: url(https://media.istockphoto.com/id/465987866/es/foto/botellas-de-vino-en-tienda.jpg?s=1024x1024&w=is&k=20&c=RF_l2aZOIPB6ZawPSITEqIngHYj11vkg1WhaPOKWi7s=);
    
 }
+
+
 
 .footer img{
  width: 91px;
@@ -51,11 +58,27 @@
 
 .footer{
     background-color: black;
+    height: 30vh;
 }
 
 .h2{
     color: rgb(16, 99, 207);
     display: flex;
     justify-content: space-around;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    gap: 20px;
+}
+
+.texto-footer{
+    position: relative;
+    top: 30px;
+    left: 720px;
+    color: white;
 }
 
