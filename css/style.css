@@ -10,8 +10,7 @@
     justify-content: space-evenly;
     align-items: center;
     background-image: url(https://media.istockphoto.com/id/962517604/es/foto/supermercado.jpg?s=612x612&w=0&k=20&c=YlcLpGKJGOm7yBJgZtEEIDuAAItXB1aO6sbWwk7xK0Q=);
-   
-}
+} 
 
 .header img{
     width: 150px;
@@ -31,10 +30,12 @@
 
 .nav ul a{
     text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 15px;
     color: rgb(0, 188, 235);
     font-weight: bold;
-    box-shadow: 6px 7px 6px;
-    
+    box-shadow: 6px 7px 4px rgb(196, 43, 137) inset;
 }
 
 /* main index */
@@ -109,7 +110,17 @@
     box-shadow: 5px 6px 5px inset;
 }
 
-@media (max-width:888px){
+.card-text{
+    color: salmon;
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+@media (max-width:950px){
     .header{
         justify-content: center;
     }
