@@ -31,7 +31,7 @@
 
 .nav ul a{
     text-decoration: none;
-    color: rgb(204, 224, 88);
+    color: rgb(0, 188, 235);
     font-weight: bold;
     box-shadow: 6px 7px 6px;
     
@@ -82,3 +82,35 @@
     color: white;
 }
 
+.card-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: violet;
+    border-color: aqua;
+    color: white;
+    box-shadow: 6px 7px 6px inset;
+    border-radius: 15px;
+}
+
+.card-body{
+    background-color: blueviolet;
+
+}
+
+.card-text{
+    color: white;
+    font-weight: bold;
+}
+
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    box-shadow: 5px 6px 5px inset;
+}
+
+@media (max-width:888px){
+    .header{
+        justify-content: center;
+    }
+}
